@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(data)
       if !pigeon_list[pigeon_name][attributes]
         pigeon_list[pigeon_name][attributes] = []
       end
-      pigeon_list[pigeon_name][attributes].push(color_gender_locations)
+      pigeon_list[pigeon_name][attributes].push(color_gender_locations.to_s)
       binding.pry
     end
    end
